@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ko">
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<script type="text/javascript" src="/js/jquery-1.8.3.js"></script>
+<script type="text/javascript" src="/js/jquery.flexslider.js"></script>
+<script type="text/javascript" src="/js/design.js"></script>
+<meta id="mobileMeta" name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0"/>
+<link rel="stylesheet" type="text/css" href="/css/nanumgothic.css" media="all"/>
+<link rel="stylesheet" href="/css/common.css">
+<title>자연&amp; 센트럴자이</title>
+</head>
+<body>
+<div class="head">
+	<h1><a href="/index.html"><img src="/images/h1_wj_logo.gif" alt="자연&amp; 센트럴자이"/></a></h1>
+	<div class="top_util">
+		<a href="/register/regist.html"><img src="/images/btn_top_reg.gif" alt="관심고객등록"/></a>
+		<img src="/images/top_contact.gif" alt="연락처"/>
+	</div>
+	<div class="gnb">
+		<ul class="nav">
+			<li class="menu" id="menu1"><strong><a href="/business/overview.html">사업안내</a></strong>
+				<div class="submenu" id="submenu1">
+					<ul>
+						<li><a href="/business/overview.html">사업개요</a></li>
+						<li><a href="/business/environment.html">입지환경</a></li>
+						<li><a href="/business/feature.html">특장점</a></li>
+						<li><a href="/business/map.html">찾아오시는 길</a></li>
+					</ul>
+				</div><!-- end submenu -->
+			</li>
+			<li class="menu" id="menu2"><strong><a href="/complex/eyeview.html">단지안내</a></strong>
+				<div class="submenu" id="submenu2">
+					<ul>
+						<li><a href="/complex/eyeview.html">조감도/투시도</a></li>
+						<li><a href="/complex/arrange.html">동호수배치도</a></li>
+					</ul>
+				</div><!-- end submenu -->
+			</li>
+			<li class="menu" id="menu3"><strong><a href="/household/type.html">세대정보</a></strong>
+				<div class="submenu" id="submenu3">
+					<ul>
+						<li><a href="/household/type.html">51㎡</a></li>
+						<li><a href="/household/type2.html">59㎡A</a></li>
+						<li><a href="/household/type3.html">59㎡B</a></li>
+						<li><a href="/household/type4.html">74㎡</a></li>
+						<li><a href="/household/type5.html">84㎡</a></li>
+					</ul>
+				</div><!-- end submenu -->
+			</li>
+			<li class="menu" id="menu4"><strong><a href="/sales/supply.html">분양안내</a></strong>
+				<div class="submenu" id="submenu4">
+					<ul>
+						<li><a href="/sales/supply.html">공급안내</a></li>                        
+						<li><a href="/sales/gonggo.html">입주자모집공고</a></li>
+					</ul>
+				</div><!-- end submenu -->
+			</li>
+			<li class="menu" id="menu5"><strong><a href="/register/regist.html">고객센터</a></strong>
+				<div class="submenu" id="submenu5">
+					<ul>
+						<li><a href="/register/regist.html">관심고객등록</a></li>
+						<li><a href="/event/alternate_winner.html">예비당첨자 참가신청</a></li>
+						<li><a href="/board/press_list.html">보도자료</a></li>
+                        <li><a href="/board/notice_list.html">공지사항</a></li>
+                        <li><a href="/sales/prev_result.html">당첨자발표</a></li>
+						<li><a href="/event/winner.html">이벤트</a></li>
+					</ul>
+				</div><!-- end submenu -->
+			</li>
+		</ul>
+	</div><!-- end gnb -->
+</div><!-- end head -->
+<script type="text/javascript">gnb();</script>
+
+<script type="text/javascript">
+function getCookie( name )
+{
+  var nameOfCookie = name + "=";
+  var x = 0;
+  while ( x <= document.cookie.length )
+  {
+    var y = (x+nameOfCookie.length);
+    if ( document.cookie.substring( x, y ) == nameOfCookie ) {
+      if ( (endOfCookie=document.cookie.indexOf( ";", y )) == -1 )
+        endOfCookie = document.cookie.length;
+      return unescape( document.cookie.substring( y, endOfCookie ) );
+    }
+    x = document.cookie.indexOf( " ", x ) + 1;
+    if ( x == 0 )
+      break;
+  }
+  return "";
+}
+</script>
+<script src="/js/Fjs.js"></script>
+<script src="/js/CSSPlugin.min.js"></script>
+<script src="/js/TweenLite.min.js"></script>
+<script src="/js/garnet.js"></script>
+<script src="/js/host.js"></script>
+<script type="text/javascript">
+function goprivacy() {	
+	var win = window.open('/register/privacy.html','pop_privacy', 'width=800, height=600 left=0, top=0, scrollbars=yes');
+	win.focus();
+}
+</script>
+<div id="flash"></div>
+<script type="text/javascript">
+    Fjs.init( "flash", "flash/index.swf", "100%", 1024 );
+</script>
+		
+<div class="footer">
+	<img src="/images/footer_text.gif" alt=""/>
+	<a href="javascript: goprivacy();"><img src="/images/btn_footer_privacy.gif" alt=""/></a>
+	<a href="https://www.gh.or.kr/gh/index.do" target="_blank"><img src="/images/btn_footer_go.gif" alt=""/></a>
+</div><!-- end footer -->
+</body>
+</html>

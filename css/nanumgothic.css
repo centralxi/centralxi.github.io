@@ -1,0 +1,54 @@
+/*
+ * Nanum Gothic (Korean) http://www.google.com/fonts/earlyaccess
+ */
+@font-face {
+  font-family: 'Nanum Gothic';
+  font-style: normal;
+  font-weight: 400;
+  src: url(//web.archive.org/web/20150404064007im_/http://fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-Regular.eot);
+  src: url(//web.archive.org/web/20150404064007im_/http://fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-Regular.eot#iefix) format('embedded-opentype'),
+       url(//web.archive.org/web/20150404064007im_/http://fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-Regular.woff2) format('woff2'),
+       url(//web.archive.org/web/20150404064007im_/http://fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-Regular.woff) format('woff'),
+       url(//web.archive.org/web/20150404064007im_/http://fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Nanum Gothic';
+  font-style: normal;
+  font-weight: 700;
+  src: url(//web.archive.org/web/20150404064007im_/http://fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-Bold.eot);
+  src: url(//web.archive.org/web/20150404064007im_/http://fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-Bold.eot#iefix) format('embedded-opentype'),
+       url(//web.archive.org/web/20150404064007im_/http://fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-Bold.woff2) format('woff2'),
+       url(//web.archive.org/web/20150404064007im_/http://fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-Bold.woff) format('woff'),
+       url(//web.archive.org/web/20150404064007im_/http://fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-Bold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Nanum Gothic';
+  font-style: normal;
+  font-weight: 800;
+  src: url(//web.archive.org/web/20150404064007im_/http://fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-ExtraBold.eot);
+  src: url(//web.archive.org/web/20150404064007im_/http://fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-ExtraBold.eot#iefix) format('embedded-opentype'),
+       url(//web.archive.org/web/20150404064007im_/http://fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-ExtraBold.woff2) format('woff2'),
+       url(//web.archive.org/web/20150404064007im_/http://fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-ExtraBold.woff) format('woff'),
+       url(//web.archive.org/web/20150404064007im_/http://fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-ExtraBold.ttf) format('truetype');
+}
+
+/*
+     FILE ARCHIVED ON 06:40:07 Apr 04, 2015 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 12:34:47 Oct 17, 2022.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  exclusion.robots: 0.078
+  exclusion.robots.policy: 0.069
+  cdx.remote: 0.09
+  esindex: 0.009
+  LoadShardBlock: 860.345 (6)
+  PetaboxLoader3.datanode: 430.655 (8)
+  CDXLines.iter: 87.772 (3)
+  load_resource: 168.676 (2)
+  PetaboxLoader3.resolve: 63.512 (2)
+*/
