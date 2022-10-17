@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 
-@import url("https://web.archive.org/web/20160320102526cs_/http://fonts.googleapis.com/earlyaccess/nanumgothic.css");
+@import url("./nanumgothic.css");
 body {
 	font-size: 12px; /* 기본폰트 사이즈 */
 	line-height: 140%; /* 행간 */
@@ -49,7 +49,7 @@ div.gnb {
 	height: 41px;
 	overflow: hidden;
 	border-bottom: 1px solid #ccc;
-	background: #fff url("/web/20160320102526im_/http://w-jayeonn2.co.kr/images/gnb_bg_x.gif") repeat-x 50% 0;
+	background: #fff url("/images/gnb_bg_x.gif") repeat-x 50% 0;
 }
 div.head.on div.gnb {
 	height: 247px;
@@ -115,13 +115,13 @@ h2 {
 	font-size: 36px;
 	padding: 70px 0 0;
 	margin: 0 0 10px;
-	background: url("/web/20160320102526im_/http://w-jayeonn2.co.kr/images/h2_bg.gif") no-repeat;
+	background: url("/images/h2_bg.gif") no-repeat;
 }
 div.body {
 	padding: 20px 0 80px;
 	width: 740px;
 	float: right;
-	background: url("/web/20160320102526im_/http://w-jayeonn2.co.kr/images/wj_content_visual.jpg") no-repeat 100% 0;
+	background: url("/images/wj_content_visual.jpg") no-repeat 100% 0;
 }
 div.location {
 	padding: 10px 0 180px;
@@ -201,13 +201,13 @@ div.notice_list table tfoot td {padding: 10px 0;  border-bottom: 1px solid #d6d6
 .notice_view {border-top:3px solid #0dcda6;}
 .notice_view table {width:100%;}
 .notice_view table thead th {color:#00a886; font-weight:600; text-align:center; height:40px; line-height:40px;  border-bottom:1px solid #e2e2e2;}
-.notice_view table thead td { background:url(/web/20160320102526im_/http://w-jayeonn2.co.kr/images/notice_line.gif) no-repeat left bottom; padding:0 20px; color:#464646;  border-bottom:1px solid #e2e2e2;}
+.notice_view table thead td { background:url(/images/notice_line.gif) no-repeat left bottom; padding:0 20px; color:#464646;  border-bottom:1px solid #e2e2e2;}
 .notice_view table tbody td {border-top:1px solid #b7b7b7;}
 .notice_view table tbody td .notice_data {color:#464646; padding:35px 50px; border-bottom:1pxp solid #e2e2e2; margin-bottom:30px; line-height:20px;}
-.notice_view table tfoot th.prev { background:url(/web/20160320102526im_/http://w-jayeonn2.co.kr/images/arrow_up.gif) no-repeat 9px center; height:40px; line-height:40px; border-bottom:1px solid #e2e2e2; border-top:1px solid #b7b7b7;} 
-.notice_view table tfoot td.prev { height:40px; line-height:40px; background:url(/web/20160320102526im_/http://w-jayeonn2.co.kr/images/notice_line.gif) no-repeat left bottom; padding:0 20px; color:#464646;  border-bottom:1px solid #e2e2e2; border-top:1px solid #b7b7b7;}
-.notice_view table tfoot th.next {background:url(/web/20160320102526im_/http://w-jayeonn2.co.kr/images/arrow_dn.gif) no-repeat 9px center; height:40px; line-height:40px; border-bottom:1px solid #b7b7b7;} 
-.notice_view table tfoot td.next {height:40px; line-height:40px; background:url(/web/20160320102526im_/http://w-jayeonn2.co.kr/images/notice_line.gif) no-repeat left bottom; padding:0 20px; color:#464646; border-bottom:1px solid #b7b7b7;}
+.notice_view table tfoot th.prev { background:url(/images/arrow_up.gif) no-repeat 9px center; height:40px; line-height:40px; border-bottom:1px solid #e2e2e2; border-top:1px solid #b7b7b7;} 
+.notice_view table tfoot td.prev { height:40px; line-height:40px; background:url(/images/notice_line.gif) no-repeat left bottom; padding:0 20px; color:#464646;  border-bottom:1px solid #e2e2e2; border-top:1px solid #b7b7b7;}
+.notice_view table tfoot th.next {background:url(/images/arrow_dn.gif) no-repeat 9px center; height:40px; line-height:40px; border-bottom:1px solid #b7b7b7;} 
+.notice_view table tfoot td.next {height:40px; line-height:40px; background:url(/images/notice_line.gif) no-repeat left bottom; padding:0 20px; color:#464646; border-bottom:1px solid #b7b7b7;}
 .notice_view a:hover {color:#f49742;}
 
 
@@ -227,8 +227,8 @@ div.pager span.next { margin: 0 0 0 5px; }
 #pop_zipcode #pop_head h1 { padding: 0 0 20px; }
 #pop_zipcode #pop_head p.close { position: absolute; right: 0px; top: 0px; }
 #pop_zipcode #pop_body { padding: 0 29px; }
-#pop_body { background: url("/web/20160320102526im_/http://w-jayeonn2.co.kr/images/pop_zip_bg2.gif") no-repeat; height:312px; }
-#pop_body div.zipcode_search { background: url("/web/20160320102526im_/http://w-jayeonn2.co.kr/images/pop_zip_bg.gif") no-repeat; width: 385px; margin: 0; padding: 19px 0 10px 0; }
+#pop_body { background: url("/images/pop_zip_bg2.gif") no-repeat; height:312px; }
+#pop_body div.zipcode_search { background: url("/images/pop_zip_bg.gif") no-repeat; width: 385px; margin: 0; padding: 19px 0 10px 0; }
 #pop_body div.zipcode_search fieldset { border: none; }
 #pop_body div.zipcode_search fieldset legend { display: none; }
 #pop_body div.zipcode_search p * { vertical-align: middle; }
@@ -257,7 +257,7 @@ div.pager span.next { margin: 0 0 0 5px; }
 }
 
 .doc_private ul { display:block; overflow:hidden; margin-bottom:10px;}
-.doc_private ul li {display:block; background:url(/web/20160320102526im_/http://w-jayeonn2.co.kr/img/bl_line.gif) no-repeat 3px 10px; padding-left:12px; }
+.doc_private ul li {display:block; background:url(/images/bl_line.gif) no-repeat 3px 10px; padding-left:12px; }
 .doc_private ol {display:block; overflow:hidden; margin-bottom:10px;}
 .doc_private ol li {display:block; margin-bottom:5px; }
 .privacy .doc_private dl dt {
@@ -275,7 +275,7 @@ div.agreement h3 {
 	font-size: 1.3em;
 	border-bottom: 1px solid #333;
 	padding: 0 0 7px 7px;
-	background: url("/web/20160320102526im_/http://w-jayeonn2.co.kr/img/bl_dot.gif") no-repeat 0 8px;
+	background: url("/images/bl_dot.gif") no-repeat 0 8px;
 }
 div.agreement div.summary {
 	padding: 0 0 20px;
@@ -329,7 +329,7 @@ div.regist h3 {
 	margin: 0 0 10px;
 	font-size: 1.3em;
 	padding: 0 0 7px 7px;
-	background: url("/web/20160320102526im_/http://w-jayeonn2.co.kr/img/bl_dot.gif") no-repeat 0 8px;
+	background: url("/images/bl_dot.gif") no-repeat 0 8px;
 }
 div.regist div.summary {
 	margin: 0 0 10px;
@@ -474,8 +474,8 @@ div.tab li a.on {
 
   .ResultTab { display:block; overflow:hidden; margin-bottom:20px;}
   .ResultTab li { float:left; margin-right:1px;}
-  .ResultTab li a { display:block; width:246px; height:39px; text-indent:-9999em; background:url(/web/20160320102526im_/http://w-jayeonn2.co.kr/images/result_tab_off.gif) no-repeat;}
-  .ResultTab li a.on {background:url(/web/20160320102526im_/http://w-jayeonn2.co.kr/images/result_tab_on.gif) no-repeat;}
+  .ResultTab li a { display:block; width:246px; height:39px; text-indent:-9999em; background:url(/images/result_tab_off.gif) no-repeat;}
+  .ResultTab li a.on {background:url(/images/result_tab_on.gif) no-repeat;}
   .ResultTab li.list01 a {background-position:0 0;}
   .ResultTab li.list02 a {background-position:-247px 0;}
 
@@ -537,24 +537,3 @@ div.alternative_winner div.button span {
 div.alternative_winner div.button_center {
 	text-align: center;
 }
-/*
-     FILE ARCHIVED ON 10:25:26 Mar 20, 2016 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 12:34:45 Oct 17, 2022.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  captures_list: 172.142
-  exclusion.robots: 0.106
-  exclusion.robots.policy: 0.098
-  cdx.remote: 0.063
-  esindex: 0.009
-  LoadShardBlock: 138.737 (3)
-  PetaboxLoader3.datanode: 110.178 (4)
-  CDXLines.iter: 19.708 (3)
-  PetaboxLoader3.resolve: 86.415 (2)
-  load_resource: 149.492
-*/
