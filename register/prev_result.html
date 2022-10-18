@@ -109,48 +109,28 @@
 		<div class="content">
 
 <!-- 자연& 센트럴자이 -->
-<ul id="tabList" class="ResultTab">
-     <li class="list01"><a href="#Result01" class="tab on">일반공급당첨자</a></li>
-     <li class="list02"><a href="#Result02">특별공급당첨자</a></li>
-</ul>
-
-
-<!-- tab_content_wrap -->
-  <div id="tab_content_wrap">
-    <div class="tab_contents" id="Result01">
-      <p><img src="/images/result_img02.jpg" alt="" usemap="#Map2"/>
-        <map name="Map2">
-          <area shape="rect" coords="72,220,163,287" href="javascript:;">
-          <area shape="rect" coords="172,219,265,288" href="javascript:;">
-          <area shape="rect" coords="273,219,365,287" href="javascript:;">
-          <area shape="rect" coords="375,220,466,289" href="javascript:;">
-          <area shape="rect" coords="475,220,569,288" href="javascript:;">
-          <area shape="rect" coords="577,219,668,288" href="javascript:;">
-        </map>
-      </p>
-    </div>
-    
-    <div class="tab_contents" id="Result02">
-      <p><img src="/images/result_img01.jpg" alt="" usemap="#Map"/>
-        <map name="Map">
-          <area shape="rect" coords="71,220,183,288" href="javascript:;">
-          <area shape="rect" coords="193,218,306,287" href="javascript:;">
-          <area shape="rect" coords="314,218,425,288" href="javascript:;">
-          <area shape="rect" coords="435,219,547,287" href="javascript:;">
-          <area shape="rect" coords="556,220,668,288" href="javascript:;">
-        </map>
-      </p>      
-    </div>
-  </div>
-  <!-- tab_content_wrap -->
-
-<script type="text/javascript">
-initTabMenu("tab_content_wrap");
-</script>
+<div id="tab-container">
+	<div class="tab" id="tab_supply">
+		<ul>
+			<li><a href="#tabcon1" class="tab">일반공급당첨자</a></li>
+			<li><a href="#tabcon2" class="tab">특별공급당첨자</a></li>
+		</ul>
+	</div><!-- end tab -->
+	<div id="tabcon1" class="tabstyle">
+		<p><img src="/images/result_img02.jpg" alt=""/></p>
+	</div>
+	<div id="tabcon2" class="tabstyle">
+		<p><img src="/images/result_img01.jpg" alt=""/></p>
+	</div>
+</div>
 
 		</div><!-- end content -->
 	</div><!-- end body -->
 </div><!-- end wrap -->
+
+<script type="text/javascript">
+initTabMenu("tab-container");
+</script>
 
 <div class="footer">
 	<img src="/images/footer_text.gif" alt=""/>
