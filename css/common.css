@@ -1,5 +1,10 @@
 @charset "utf-8";
 
+@media screen and (max-width:1100px) {
+	div.top_util {
+		display:none;
+	}
+}
 
 @import url("./nanumgothic.css");
 body {
